@@ -1,6 +1,6 @@
 ❤️ San Valentín - Regalo Digital
 
-Este es un proyecto web creado para sorprender a una persona especial en San Valentín. La página permite personalizar un mensaje, incluir imágenes y diseñar una experiencia interactiva y significativa para el destinatario.
+Este es un proyecto web creado para sorprender a una persona especial en San Valentín. La página permite personalizar  mensajes, incluir imágenes y diseñar una experiencia interactiva y significativa para el destinatario.
 
 📚 Características
 
@@ -30,5 +30,5 @@ Si te gusta dale a la estrellita 🌟
 
 🌟 Autor
 
-Desarrollado con ❤️ por [Ruan Nicolas de Proenca Giemenes].
+Desarrollado por [Ruan Nicolas de Proenca Giemenes].
 
