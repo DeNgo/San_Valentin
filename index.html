@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Ti Mi Amor ❤️</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="animate-on-load">
+        <h1>Con Mucho amor (Nombre) ❤️</h1>
+    </header>
+
+    <main class="content">
+        <!-- Sección de bienvenida -->
+        <section class="message animate-on-load">
+            <p>Hola, mi amor! Aquí están algunos recuerdos y momentos que me hacen pensar en lo especial que eres para mí. ❤️</p>
+        </section>
+
+        <!-- Contador de tiempo juntos -->
+        <section class="counter animate-on-load">
+            <p>Ya estamos compartiendo nuestros días juntos desde hace:</p>
+            <!-- Modificar la fecha en la linea 18 del script -->
+            <span id="timeTogether"></span>
+        </section>
+
+        <!-- Galería de recuerdos -->
+        <section class="gallery animate-on-load">
+            <h2>Galeria de Momentos</h2>
+            <div class="gallery-container">
+                <img src="img/imagen1.jpg" alt="Foto 1">
+                <img src="img/imagen2.jpg" alt="Foto 2">
+                <img src="img/imagen3.jpg" alt="Foto 3">
+            </div>
+        </section>
+
+        <!-- Sección de citas de amor -->
+        <section class="quotes animate-on-load">
+            <h2>Citas de Amor</h2>
+            <!-- Modificar citas en la linea 55 del script -->
+            <p id="quoteText"></p>
+        </section>
+
+        <!-- Lista de reproducción -->
+        <section class="playlist animate-on-load">
+            <h2>Nuestras Canciones 🥰</h2>
+            <ul>
+                <li onclick="window.open('https://open.spotify.com/intl-es/track/3U4isOIWM3VvDubwSI3y7a?si=20274d716f2d4ac6', '_blank')"
+                    style="cursor: pointer;">🎵 Música 1</li>
+                <li onclick="window.open('', '_blank')"
+                    style="cursor: pointer;">🎵 Música 2</li>
+                <li onclick="window.open('', '_blank')"
+                    style="cursor: pointer;">🎵 Música 3</li>
+            </ul>
+        </section>
+
+        <!-- Línea del tiempo del amor -->
+        <section class="timeline animate-on-load">
+            <h2>Línea del Tiempo de Nuestro Amor</h2>
+            <ul>
+                <li>
+                    <span class="date">23-08-2024</span>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </li>
+                <li>
+                    <span class="date">10-09-2024</span>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </li>
+                <li>
+                    <span class="date">05-10-2024</span>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </li>
+            </ul>
+        </section>
+
+
+        <!-- Sección de carta de amor -->
+        <section class="love-letter animate-on-load">
+            <h2>Carta de Amor</h2>
+            <button id="openLoveLetter">Leer</button>
+        </section>
+    </main>
+
+    <!-- Modal para ampliar imágenes de la galería -->
+    <div class="modal" id="imageModal">
+        <span class="close" id="closeModal">&times;</span>
+        <img id="modalImage" src="" alt="Imagen ampliada">
+    </div>
+
+    <!-- Modal para la carta de amor -->
+<div class="modal" id="loveLetterModal">
+    <div class="love-letter-content">
+        <span class="close" id="closeLoveLetter">&times;</span>
+        <h2>Mi Carta de Amor</h2>
+        <p>
+            Querido/a,<br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+            <br>
+            Con amor,  
+            <br>💖 Tu persona especial 💖
+        </p>
+    </div>
+</div>
+
+    <footer class="animate-on-load">
+        <p>Com Mucho Amor, (Tu Nombre) ❤️</p>
+    </footer>
+</body>
+
+</html>
